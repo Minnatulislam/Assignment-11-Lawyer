@@ -4,7 +4,9 @@
 
 #  Website description : 
   * first create react app install and react router 
-  * firebase new create new projects and database  mongodb use
+  * firebase new create new projects and database  mongodb use.
+  * framwork use react-boostrap
+  * desgin hot Toast and react icons
 
 
 
