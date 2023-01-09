@@ -7,7 +7,8 @@
   * firebase new create new projects and database  mongodb use.
   * framwork use react-boostrap
   * desgin hot Toast and react icons
-    * server site use env file and jwt token  vercel 
+  * server site use env file and jwt token  vercel
+  *  Features : Actually this site is  Lawyer related 
 
 
 
