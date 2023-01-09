@@ -2,7 +2,9 @@
 # Website Name Lawyer 
  ## livesite link : (https://assignment-11-d2260.web.app/)
 
-
+#  Website description : 
+  * first create react app install and react router 
+  * firebase new create new projects and database  mongodb use
 
 
 
