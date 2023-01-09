@@ -1,0 +1,23 @@
+
+    .prarend{
+       
+        display: grid;
+        grid-template-columns: repeat(3, 1fr );
+      
+    }
+
+    @media (max-width: 568px) {
+        .prarend{
+       
+            display: grid;
+            grid-template-columns: repeat(1, 1fr );
+            width: 100%;
+          
+        }
+
+    }
+
+
+
+
+    

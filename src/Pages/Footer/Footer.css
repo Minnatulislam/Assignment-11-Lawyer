@@ -1,0 +1,8 @@
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media (max-width: 568px) {
+ .footer{
+   display: contents;
+   flex-direction: column;
+ }
+
+}
