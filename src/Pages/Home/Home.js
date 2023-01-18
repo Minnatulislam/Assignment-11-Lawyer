@@ -30,7 +30,9 @@ const Home = () => {
                 <div>
 
        <Carusol></Carusol>
-
+        <div>
+            <h2 className='text-center my-4 fs-1 fw-semibold'>Our Services</h2>
+        </div>
 
   <div className='prarend flex-sm-column' style={{ 
        position:'relative', height:'100%', width:"100%" }}>
