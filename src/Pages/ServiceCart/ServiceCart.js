@@ -31,7 +31,7 @@ const ServiceCart = ({service}) => {
 
    </Card.Text>
     <p> Price : ${Price} </p>
-       <Link  to={`/detailService/${_id}`}>  <Button variant="primary" className= 'mb-0' >Details</Button></Link>
+       <Link  to={`/detailService/${_id}`}>  <Button variant="info" className= 'mb-0' >Details</Button></Link>
 </Card.Body>
  </Card>
           </Col>

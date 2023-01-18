@@ -33,7 +33,7 @@ const Home = () => {
 
 
   <div className='prarend flex-sm-column' style={{ 
-       position:'relative', backgroundColor:'lightcyan', height:'100%', width:"100%" }}>
+       position:'relative', height:'100%', width:"100%" }}>
      
       {
          services.map(servise => <Cart 
@@ -53,8 +53,8 @@ const Home = () => {
         
         
 
-     <Link className='d-flex justify-content-around text-decoration-none my-1 ' to='/services'>
-     <Button style={{ width:'150px'  }}  variant="primary">See All <BiRightArrowAlt/> </Button>
+     <Link className='d-flex justify-content-around text-decoration-none my-4 ' to='/services'>
+     <Button style={{ width:'150px'  }}  variant="info">See All <BiRightArrowAlt/> </Button>
         
          </Link>
 

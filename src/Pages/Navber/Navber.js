@@ -8,9 +8,9 @@ const Navber = () => {
     const { user,  ligninOut} = useContext(AuthProvider)
 
     return (
-        <Navbar collapseOnSelect expand="lg" bg="success" variant="dark">
+        <Navbar collapseOnSelect expand="lg" bg="info" variant="dark">
         <Container>
-          <Navbar.Brand href="#home"> Lawyer  </Navbar.Brand>
+          <Navbar.Brand href="#home" className='fw-bold fs-3 '> Lawyer  </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
@@ -35,10 +35,7 @@ const Navber = () => {
                       
                   </>
               
-               }
-
-        
-              
+               }            
               
             </Nav>
           </Navbar.Collapse>

@@ -13,7 +13,7 @@ const Cart = ( {servise}) => {
         <Row>
           <Col className='mt-3 '>
           <Card style={{ width: '',height:'500px' }}>
-   <Card.Img variant="top" src={img} style={{height:'100px', }} />
+   <Card.Img variant="top" src={img} style={{height:'250px', }} />
   <Card.Body>
    <Card.Title> {name} </Card.Title>
     <Card.Text >
@@ -25,7 +25,7 @@ const Cart = ( {servise}) => {
    </Card.Text>
     <p> Price : ${Price} </p>
  
-   <Button variant="primary" >Details</Button>
+   <Button variant="info" >Details</Button>
 </Card.Body>
  </Card>
           </Col>
