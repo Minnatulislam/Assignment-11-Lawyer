@@ -10,7 +10,7 @@ const Navber = () => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="info" variant="dark">
         <Container>
-          <Navbar.Brand href="#home" className='fw-bold fs-3 '> Lawyer  </Navbar.Brand>
+          <Navbar.Brand href="#home" className='fw-bold fs-2 text-dark'> Lawyer  </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
@@ -19,15 +19,15 @@ const Navber = () => {
             <Nav>
           
              
-                <Link className='text-decoration-none me-2 text-white' to = '/'> Home</Link>
-                <Link className='text-decoration-none me-2 text-white' to='/blog'> Blog</Link>
+                <Link className='text-decoration-none me-4 text-dark fw-semibold fs-5 ' to = '/'> Home</Link>
+                <Link className='text-decoration-none me-4 text-dark fw-semibold fs-5' to='/blog'> Blog</Link>
                {
                   user?.email?  <>
-                  <Link className='text-decoration-none me-2 text-white' to = '/addreview'> My review</Link>
-                  <Link className='text-decoration-none me-2 text-white ' to = '/addservice'> AddService </Link>
+                  <Link className='text-decoration-none me-4 text-dark fw-semibold fs-5' to = '/addreview'> My review</Link>
+                  <Link className='text-decoration-none me-4 text-dark fw-semibold fs-5 ' to = '/addservice'> AddService </Link>
                  
      
-                   <Button onClick={ligninOut} variant="light" className='w-20% mt-2'>LogOut</Button>
+                   <Button onClick={ligninOut} variant="light" className='w-5%  '>LogOut</Button>
                   </>
                   :
                 <>      

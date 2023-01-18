@@ -119,7 +119,7 @@ const  from = location.state?.from?.pathname || '/';
         <Container>
                  
         <Row className='mt-5 '>
-            <Col lg="8" sm="12 " className=' ms-5 w-50 border-none rounded  justify-content-center' style={{height:'350px',backgroundColor:" #ff9999 ", }} >
+            <Col lg="8" sm="12 " className=' ms-5 w-50 border-none rounded  justify-content-center' style={{height:'350px',backgroundColor:" #ee986852 ", }} >
             <Form  onSubmit={handlarSummit} >
 
           <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -132,14 +132,14 @@ const  from = location.state?.from?.pathname || '/';
           <Form.Control type="password" name="password" placeholder="Password" />
      
      </Form.Group>
-   <Button variant="primary" type="submit">
+   <Button variant="info" type="submit">
      Submit
 </Button>
 
-   <Link className='mt-2 text-decoration-none' to='/signup' > <p > Create New Accout</p></Link>
+   <Link className='mt-2 text-decoration-none text-dark' to='/signup' > <p > Create New Accout</p></Link>
   
            <ButtonGroup vertical>
-                <Button onClick={googleLogin }  className='mb-2' variant="outline-success"> <FaGoogle />  Google with login </Button> 
+                <Button onClick={googleLogin }  className='mb-2' variant="outline-info"> <FaGoogle />  Google with login </Button> 
             </ButtonGroup>
   
   </Form>

@@ -114,7 +114,7 @@ const Signup = () => {
               <Form.Control type="password" name="password" placeholder="Password" />
 
             </Form.Group>
-            <Button variant="primary" type="submit">
+            <Button variant="info" type="submit">
               Submit
             </Button>
 

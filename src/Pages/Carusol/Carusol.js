@@ -23,7 +23,7 @@ const Carusol = () => {
         <img
          style={{maxHeight:'500px'}}
           className="d-block   w-100"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwdKABh26tp9j5SsGXMGfD2nJBbHMFo_Z9Eg&usqp=CAU"
+          src="https://assignmenttask.com/uploads/law-case-study-sample.jpg"
           alt="Second slide"
         />
 

@@ -7,9 +7,9 @@ const Section2 = () => {
         <Container>
             <Row className='mt-5 pb-5 '  style={{backgroundColor:'#0DCAF0'}} >
                     <h3 className="text-center my-4  w-50 mx-auto  "> Case Interview Prep ... </h3>
-                <Col lg="8" sm="12 ">
+                <Col lg="8" sm="12" className='rounded-5'>
         
-                 <img style={{height:'280px'}}  className='w-100 px-5'  src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNL9bzz2G78nqcbFQ1nkL-EUDlHz7E2wHnfE5yqXAQ5w&s' alt='' />
+                 <img style={{height:'280px'}}  className='w-100  px-5 '  src='https://sourceessay.com/essay/wp-content/uploads/2021/09/Law-Case-study.jpg' alt='' />
 
                 </Col>
 

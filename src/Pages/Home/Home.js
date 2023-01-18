@@ -53,7 +53,7 @@ const Home = () => {
         
         
 
-     <Link className='d-flex justify-content-around text-decoration-none my-4 ' to='/services'>
+     <Link className='d-flex justify-content-center text-decoration-none my-4 ' to='/services'>
      <Button style={{ width:'150px'  }}  variant="info">See All <BiRightArrowAlt/> </Button>
         
          </Link>

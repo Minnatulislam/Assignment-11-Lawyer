@@ -17,15 +17,19 @@ const Section1 = () => {
          
 
             
-        <img style={{height:'200px',width:'100%'}} className='w-50 mx-auto mt-3' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbPMQS9rE8Izl-_OOpao2WFxWPIq5qBH8N_RVAYRk6_w&s' alt=' ' />
-        <Card.Body>
-          <Card.Title className='text-center'>Family Lawyer</Card.Title>
-          <Card.Text className='fs-5 text-primary'>
-          At FM Associates, a well renowned family law firm in Bangladesh we work to serve the best interest of our clients, by attending legal concerns towards a ...
+        <img style={{height:'240px',width:'100%'}} className='w-50 mx-auto mt-3' src='https://miro.medium.com/max/828/1*1bko7wh4kpGP69ucVKBskw.webp' alt=' ' />
+        <Card.Body className='text-center pb-4'>
+          <Card.Title className='fs-2 '>Family Lawyer</Card.Title>
+          <Card.Text className=' text-dark '>
+          At FM Associates, a well renowned family law firm in Bangladesh we work to serve the best interest of our clients, by attending legal concerns towards an instrument that record analyze summerize organize debate and explain information that are illustrate non illustrate hardbound paperback jacketed non jacketed with forword introduction table of content index that are intended enlightenment enrichment enhanchment education of the human brain through the sensory route of vision, sometime touch...
         </Card.Text>
 
-  
-        <Button variant="primary"> Read more ..</Button>
+        
+
+        <Button variant="info"> Read more ..</Button>
+
+      
+        
       </Card.Body>
         
          </Card>
